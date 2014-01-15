@@ -787,6 +787,12 @@ function bp_get_displayed_user_nav() {
 	global $bp;
 
 	foreach ( (array) $bp->bp_nav as $user_nav_item ) {
+
+		//TODO verrificar posteriormente essa restrição (retira da nav bar a opção de notifications) 
+		if ( $user_nav_item['slug'] == 'notifications' ) {
+			continue;
+		}
+
 		if ( empty( $user_nav_item['show_for_displayed_user'] ) && !bp_is_my_profile() )
 			continue;
 
