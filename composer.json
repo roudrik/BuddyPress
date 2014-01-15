@@ -1,0 +1,15 @@
+{
+    "name": "wpackagist/buddpress",
+    "description": "BuddyPress lets users sign-up and start creating profiles, posting messages, making connections, creating and interacting in groups, and much more. A social network in a box, BuddyPress lets you easily build a community for your company, school, sports team, or other niche community.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John James Jacoby",
+            "email": "johnjamesjacoby@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
